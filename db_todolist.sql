@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 22, 2021 at 12:39 AM
+-- Generation Time: Apr 22, 2021 at 12:44 AM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.3.8
 
@@ -43,20 +43,18 @@ CREATE TABLE `todolists` (
 --
 
 INSERT INTO `todolists` (`id`, `t_name`, `t_desc`, `t_dedline`, `t_priority`, `t_created_at`, `t_updated_at`) VALUES
-(1, 'Tes1', 'asdasd213123dasdasd', '2021-05-21 21:02:19', 'Penting', '2021-04-21 22:26:46', '2021-04-21 22:26:46'),
-(3, 'Tes112asd', '1121adsasd', '2021-05-21 21:02:19', 'Penting', '2021-04-21 22:30:55', '2021-04-21 22:30:55'),
-(4, 'Tes113', '1121adsasd', '2021-05-21 21:02:19', 'Penting', '2021-04-21 23:29:45', '2021-04-21 23:29:45'),
-(5, 'Tes111', '1121adsasd', '2021-05-21 21:02:19', 'Penting', '2021-04-21 23:29:51', '2021-04-21 23:29:51'),
-(6, 'Tes112', '1121adsasd', '2021-05-21 21:02:19', 'Penting', '2021-04-21 23:29:55', '2021-04-21 23:29:55'),
-(7, 'Tes116', '1121adsasd', '2021-05-21 21:02:19', 'Prioritas', '2021-04-21 23:29:58', '2021-04-21 23:29:58'),
-(8, 'Tes117', '1121adsasd', '2021-05-21 21:02:19', 'Cukup Penting', '2021-04-21 23:30:01', '2021-04-21 23:30:01'),
-(9, 'Tes115', '1121adsasd', '2021-05-21 21:02:19', 'Penting', '2021-04-21 23:30:04', '2021-04-21 23:30:04'),
-(10, 'Tes114', '1121adsasd', '2021-05-21 21:02:19', 'Penting', '2021-04-21 23:30:07', '2021-04-21 23:30:07'),
-(11, 'Tes101', '1121adsasd', '2021-05-21 21:02:19', 'Penting', '2021-04-21 23:30:11', '2021-04-21 23:30:11'),
-(13, 'Tes103', '1121adsasd', '2021-05-21 21:02:19', 'Penting', '2021-04-21 23:30:16', '2021-04-21 23:30:16'),
-(14, 'Tes104', '1121adsasd', '2021-05-21 21:02:19', 'Penting', '2021-04-21 23:30:19', '2021-04-21 23:30:19'),
-(15, 'Mengajar', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', '2021-05-21 21:02:19', 'Prioritas', '2021-04-22 01:57:11', '2021-04-22 01:57:11'),
-(16, 'Mengajar1212', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', '2021-05-21 21:02:19', 'Cukup Penting', '2021-04-22 05:17:51', '2021-04-22 05:17:51');
+(1, 'Tugas Harian', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', '2021-05-21 21:02:19', 'Cukup Penting', '2021-04-22 05:42:16', '2021-04-22 05:42:16'),
+(2, 'Tugas Mingguan', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', '2021-05-11 21:02:19', 'Penting', '2021-04-22 05:42:33', '2021-04-22 05:42:33'),
+(3, 'Tugas Makul', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', '2021-05-11 21:02:19', 'Cukup Penting', '2021-04-22 05:42:47', '2021-04-22 05:42:47'),
+(4, 'Tugas Rumah', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', '2021-06-11 21:02:19', 'Prioritas', '2021-04-22 05:43:02', '2021-04-22 05:43:02'),
+(5, 'Project 1', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', '2021-06-11 21:02:19', 'Cukup Penting', '2021-04-22 05:44:00', '2021-04-22 05:44:00'),
+(6, 'Project 2', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', '2021-07-11 21:02:19', 'Cukup Penting', '2021-04-22 05:44:06', '2021-04-22 05:44:06'),
+(7, 'Project 3', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', '2021-07-12 21:02:19', 'Cukup Penting', '2021-04-22 05:44:11', '2021-04-22 05:44:11'),
+(8, 'Project 4', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', '2021-07-12 21:02:19', 'Cukup Penting', '2021-04-22 05:44:14', '2021-04-22 05:44:14'),
+(9, 'Project 5', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', '2021-07-12 21:02:19', 'Penting', '2021-04-22 05:44:19', '2021-04-22 05:44:19'),
+(10, 'Project 6', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', '2021-07-22 21:02:19', 'Penting', '2021-04-22 05:44:24', '2021-04-22 05:44:24'),
+(11, 'Project 7', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', '2021-07-24 21:02:19', 'Penting', '2021-04-22 05:44:31', '2021-04-22 05:44:31'),
+(12, 'Project 8', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', '2021-08-24 21:02:19', 'Penting', '2021-04-22 05:44:38', '2021-04-22 05:44:38');
 
 --
 -- Indexes for dumped tables
@@ -76,7 +74,7 @@ ALTER TABLE `todolists`
 -- AUTO_INCREMENT for table `todolists`
 --
 ALTER TABLE `todolists`
-  MODIFY `id` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
