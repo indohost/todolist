@@ -74,12 +74,6 @@ class Todolist extends REST_Controller
 			$this->data['message'] = 'priority not value !';
 			$this->response($this->data, 400);
 		}
-		
-		if ($val['t_priority'] != 'Penting' or $val['t_priority'] != 'Cukup Penting' or $val['t_priority'] != 'Prioritas') {
-			$this->data['status'] = false;
-			$this->data['message'] = 'no priority option !';
-			$this->response($this->data, 400);
-		}
 
 		$row = $this->todolists->count_by('t_name', $val['t_name']);
 		if ($row > 0) {
